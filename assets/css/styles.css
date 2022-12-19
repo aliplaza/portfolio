@@ -34,14 +34,6 @@ section{
 	padding: 0.2rem;
 }
 
-a.nav-item {
-	color: #dfdfdf;
-}
-
-a.nav-item:hover {
-	color: #fff;
-}
-
 .avatar{
 	height:200px;
 	border-radius: 50%;
@@ -103,21 +95,6 @@ a.nav-item:hover {
 	cursor: pointer;
 }
 
-@media screen and (max-width: 768px) {
-	.nav-menu {
-		background-color: #063647;
-	}
-
-	.nav-toggle:hover {
-		background-color: transparent;
-	}
-
-	.nav-toggle span {
-		background-color: #dfdfdf;
-	}
-
-	.nav-toggle span:hover {
-		background-color: #fff;
-	}
-
+.text-large {
+	font-size: large;
 }
