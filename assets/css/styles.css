@@ -25,10 +25,6 @@ section{
 	background-color: #052D3D;
 }
 
-.section-3 {
-	background-color: #0E282E;
-}
-
 .section-4 {
 	background-color: #063647;
 	padding: 0.2rem;
@@ -43,16 +39,10 @@ section{
 	padding-top: 1rem;
 }
 
-.social-container img{
-	max-width:100%;
-	max-height:175px;
-	margin-bottom:15px;
-}
-
-.project-figure {
+.project-figure img {
+	display: flex;
+	justify-content: center;
 	margin: 0 auto 1rem auto;
-	max-height: 256px;
-	max-width: 256px;
 }
 
 .project-text {
@@ -96,4 +86,8 @@ section{
 
 .text-large {
 	font-size: large;
+}
+
+.has-text-centered {
+	text-align: center;
 }
